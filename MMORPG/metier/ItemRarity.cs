@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MMORPG.metier
 {
-    public class Character
+    public enum ItemRarity
     {
     }
 }
