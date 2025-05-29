@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MMORPG.metier
+namespace MMORPG.metier.model
 {
     public class Zone
     {
@@ -30,13 +30,13 @@ namespace MMORPG.metier
 
         public Zone()
         {
-            this.zoneId = 0;
-            this.name = "";
-            this.description = "";
-            this.levelRange = "";
-            this.climate = "";
-            this.npcs = new List<NPC>();
-            this.monsters = new List<Monster>();
+            zoneId = 0;
+            name = "";
+            description = "";
+            levelRange = "";
+            climate = "";
+            npcs = new List<NPC>();
+            monsters = new List<Monster>();
         }
 
 

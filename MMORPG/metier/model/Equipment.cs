@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MMORPG.metier
+namespace MMORPG.metier.model
 {
     public class Equipment : Item
     {

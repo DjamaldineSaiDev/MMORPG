@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MMORPG.metier
+namespace MMORPG.metier.model
 {
     public class Monster
     {
@@ -25,12 +25,12 @@ namespace MMORPG.metier
 
         public void Die()
         {
-            this.health = 0;
+            health = 0;
         }
 
         public void DropLoot()
         {
-            this.health = 0;
+            health = 0;
 
         }
     }

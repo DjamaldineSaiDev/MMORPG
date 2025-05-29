@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MMORPG.metier
+namespace MMORPG.metier.model
 {
     public class NPC
     {
@@ -23,17 +23,17 @@ namespace MMORPG.metier
             this.type = type;
             this.position = position;
             this.dialogue = dialogue;
-            this.questsToGive = quests;
+            questsToGive = quests;
         }
 
         public NPC()
         {
-            this.npcId = "";
-            this.name = "";
-            this.type = "";
-            this.position = new Position(0, 0, 0, "");
-            this.dialogue = new List<string>();
-            this.questsToGive = new List<Quest>();
+            npcId = "";
+            name = "";
+            type = "";
+            position = new Position(0, 0, 0, "");
+            dialogue = new List<string>();
+            questsToGive = new List<Quest>();
 
         }
 

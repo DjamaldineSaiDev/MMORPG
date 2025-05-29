@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MMORPG.metier
+namespace MMORPG.metier.model
 {
    public class Quest
     {
@@ -16,7 +16,7 @@ namespace MMORPG.metier
         private int experience;
         private int goldReward;
         private string status;
-        private List<String> objectives;
+        private List<string> objectives;
 
         public void Start(Character character)
         {

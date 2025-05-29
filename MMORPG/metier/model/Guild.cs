@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MMORPG.metier
+namespace MMORPG.metier.model
 {
     public class Guild
     {
@@ -35,7 +35,7 @@ namespace MMORPG.metier
 
         public void Invite(Character character)
         {
-            this.members.Add(character);
+            members.Add(character);
         }
 
         public void kick(Character character)

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MMORPG.metier
+namespace MMORPG.metier.model
 {
     public class Class
     {
@@ -17,12 +17,12 @@ namespace MMORPG.metier
 
         public Class()
         {
-            this.classId = "";
-            this.name = "";
-            this.description = "";
-            this.primaryAttribute = "";
-            this.baseMana = 0;
-            this.baseHealth = 0;
+            classId = "";
+            name = "";
+            description = "";
+            primaryAttribute = "";
+            baseMana = 0;
+            baseHealth = 0;
            
 
         }

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MMORPG.metier
+namespace MMORPG.metier.model
 {
     public class Character
     {
@@ -63,16 +63,16 @@ namespace MMORPG.metier
 
         public void TakeDamage(int damage)
         {
-           this.health -= damage;
+           health -= damage;
         }
         public void Heal(int amount)
         {
-            this.health += amount;
+            health += amount;
         }
 
         public void Move(Position newPosition)
         {
-            this.position = newPosition;
+            position = newPosition;
         }
 
         public void UseSkill(Skill skill)
