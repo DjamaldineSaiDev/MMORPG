@@ -6,10 +6,12 @@ using System.Threading.Tasks;
 
 namespace MMORPG.metier
 {
-    public class Consumable : Item
+    public class Equipment : Item
     {
-        private string effect;
-        private int durataion;
+
+        private string equipmentSlot;
+        private int durability;
+        private Dictionary<string, int> bonusStats;
         public override string ItemID => throw new NotImplementedException();
 
         public override string Name => throw new NotImplementedException();
@@ -27,9 +29,11 @@ namespace MMORPG.metier
             throw new NotImplementedException();
         }
 
-        public void consume(Character character) { }
+        public void Equip(Character character) { throw new NotImplementedException(); }
+        public void Unequip(Character character) { throw new NotImplementedException(); }
 
+        public void Repair() { throw new NotImplementedException(); }
 
-
+        public void Use() { throw new NotImplementedException(); }
     }
 }

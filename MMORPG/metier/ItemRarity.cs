@@ -8,5 +8,6 @@ namespace MMORPG.metier
 {
     public enum ItemRarity
     {
+        COMMON,UNCOMMON, RARE, EPIC, LEGENDARY
     }
 }
