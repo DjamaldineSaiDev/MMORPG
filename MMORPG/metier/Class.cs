@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace MMORPG.metier
 {
-   public class Class
+    public class Class
     {
+        private string classId;
+        private string name;
+        private string description;
+        private string primaryAttribute;
+        private int baseHealth;
+        private int baseMana;
+
+        public List<Skill> GetSkill;
     }
 }

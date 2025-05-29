@@ -13,7 +13,7 @@ namespace MMORPG.metier
         private string type;
         private Position position;
         private List<string> dialogue;
-        private List<Quest> quests;
+        private List<Quest> questsToGive;
 
 
         public NPC(string npcId, string name, string type, Position position, List<string> dialogue, List<Quest> quests)
@@ -23,7 +23,7 @@ namespace MMORPG.metier
             this.type = type;
             this.position = position;
             this.dialogue = dialogue;
-            this.quests = quests;
+            this.questsToGive = quests;
         }
 
         public NPC()
@@ -33,8 +33,19 @@ namespace MMORPG.metier
             this.type = "";
             this.position = new Position(0, 0, 0, "");
             this.dialogue = new List<string>();
-            this.quests = new List<Quest>();
+            this.questsToGive = new List<Quest>();
 
         }
+
+        public void Interact(Character character) { }
+
+        public Quest GiveQuest(Character character)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Trade(Character character) {  throw new NotImplementedException(); }
+
+
     }
 }
