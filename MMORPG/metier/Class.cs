@@ -15,6 +15,18 @@ namespace MMORPG.metier
         private int baseHealth;
         private int baseMana;
 
-        public List<Skill> GetSkill;
+        public Class()
+        {
+            this.classId = "";
+            this.name = "";
+            this.description = "";
+            this.primaryAttribute = "";
+            this.baseMana = 0;
+            this.baseHealth = 0;
+           
+
+        }
+
+        public List<Skill> GetSkill() { return new List<Skill>(); }
     }
 }

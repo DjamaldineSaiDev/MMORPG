@@ -8,5 +8,6 @@ namespace MMORPG.metier
 {
     public enum ChatChannel
     {
+        GLOBAL, GUILD, PARTY, WHISPER
     }
 }

@@ -24,6 +24,13 @@ namespace MMORPG.metier
 
         public override bool Stackable => throw new NotImplementedException();
 
+        public Equipment(string equipmentSlot, int durability, Dictionary<string, int> bonusStats)
+        {
+            this.equipmentSlot = equipmentSlot;
+            this.durability = durability;
+            this.bonusStats = bonusStats;
+        }
+
         public override void use()
         {
             throw new NotImplementedException();
