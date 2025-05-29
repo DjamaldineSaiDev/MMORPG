@@ -8,5 +8,20 @@ namespace MMORPG.metier
 {
     public class Skill
     {
+
+        private string name;
+        private int SkillId;
+        private string description;
+        private int manaCost;
+        private int cooldown;
+        private int damage;
+        private int level;
+        public Skill() { }
+
+        public void Cast(Character target)
+        {
+
+        }
+        public void upgrade() { }
     }
 }

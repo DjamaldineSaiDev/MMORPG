@@ -8,5 +8,9 @@ namespace MMORPG.metier
 {
     public enum QuestStatus
     {
+        NOT_STARRED,
+        IN_PROGRESS,
+        COMPLATED,
+        FAILED
     }
 }

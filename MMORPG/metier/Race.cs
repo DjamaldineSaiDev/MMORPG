@@ -8,5 +8,18 @@ namespace MMORPG.metier
 {
     public class Race
     {
+        private int raceId;
+        private string name;
+        private string description;
+        private int bonusStrength;
+        private int bonusAgillity;
+        private int bonusIntelligence;
+        private List<string> specialAbilities;
+
+
+        public int GetBonus(string attribute)
+        {
+            return bonusAgillity;
+        }
     }
 }
