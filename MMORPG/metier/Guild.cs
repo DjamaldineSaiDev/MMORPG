@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MMORPG.metier
 {
-    class Guild
+   public class Guild
     {
     }
 }

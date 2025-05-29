@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MMORPG.metier
 {
-    class Monster
+   public class Monster
     {
     }
 }

@@ -18,6 +18,7 @@ namespace MMORPG.metier
         private int accountLevel;
         private DateTime creationDate;
         private bool isOnline;
+        
 
         #endregion
 
@@ -66,6 +67,7 @@ namespace MMORPG.metier
             this.accountLevel = accountLevel;
             this.creationDate = creationDate;
             this.isOnline = isOnline;
+              
         } 
         #endregion  
 
@@ -90,7 +92,7 @@ namespace MMORPG.metier
             throw new NotImplementedException();
         }
 
-        public void DeleteCharacter()
+        public void DeleteCharacter(Character character)
         {
             throw new NotSupportedException();
         }

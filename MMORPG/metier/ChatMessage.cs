@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MMORPG.metier
 {
-    class ChatMessage
+   public class ChatMessage
     {
     }
 }
